@@ -1,17 +1,9 @@
 {
   "dependencies": {
-    "mssql1": {
+    "mssql2": {
       "serviceConnectorResourceId": "",
       "secretStore": "AzureAppSettings",
-      "resourceId": null,
       "type": "mssql.onprem",
-      "connectionId": "Bulkynew2"
-    },
-    "mssql2": {
-      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/fabjoey009/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection_0B5DE2A62A",
-      "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bulkynew1/databases/Bulky",
-      "type": "mssql.azure",
       "connectionId": "ConnectionStrings:DefaultConnection",
       "dynamicId": null
     }
