@@ -6,6 +6,11 @@
       "resourceId": null,
       "type": "mssql.onprem",
       "connectionId": "Bulkynew2"
+    },
+    "mssql1": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:DefaultConnection"
     }
   }
 }
