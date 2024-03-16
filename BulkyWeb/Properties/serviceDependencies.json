@@ -3,10 +3,6 @@
     "mssql2": {
       "type": "mssql",
       "connectionId": "Bulkynew2"
-    },
-    "mssql1": {
-      "type": "mssql",
-      "connectionId": "ConnectionStrings:DefaultConnection"
     }
   }
 }
