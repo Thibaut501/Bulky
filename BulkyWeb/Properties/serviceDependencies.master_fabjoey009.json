@@ -1,11 +1,10 @@
 {
   "dependencies": {
-    "mssql2": {
+    "mssql1": {
       "serviceConnectorResourceId": "",
       "secretStore": "AzureAppSettings",
-      "resourceId": null,
       "type": "mssql.onprem",
-      "connectionId": "Bulkynew2"
+      "connectionId": "Bulky"
     }
   }
 }
