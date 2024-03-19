@@ -4,6 +4,13 @@
       "ignored": "true",
       "type": "mssql",
       "connectionId": "ConnectionStrings:DefaultConnection"
+    },
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/fabjoey009/providers/Microsoft.ServiceLinker/linkers/AzureDefaultConnection_C3A1B7CB91",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/fabjoey/databases/Bulky",
+      "type": "mssql.azure",
+      "connectionId": "AzureDefaultConnection"
     }
   }
 }
