@@ -1,16 +1,11 @@
 {
   "dependencies": {
     "mssql1": {
-      "ignored": "true",
-      "type": "mssql",
-      "connectionId": "ConnectionStrings:DefaultConnection"
-    },
-    "mssql2": {
-      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/fabjoey009/providers/Microsoft.ServiceLinker/linkers/AzureDefaultConnection_C3A1B7CB91",
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/fabjoey009/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection_0B5DE2A62A",
       "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/fabjoey/databases/Bulky",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/fabjoeyserver/databases/Bulky",
       "type": "mssql.azure",
-      "connectionId": "AzureDefaultConnection"
+      "connectionId": "ConnectionStrings:DefaultConnection"
     }
   }
 }
